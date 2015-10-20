@@ -5,7 +5,7 @@ pub struct IdsContainer<T> {
     next_id: u32
 }
 
-#[derive(Copy, Clone, Show, PartialEq, Eq, Hash)]
+#[derive(Copy, Clone, Debug, PartialEq, Eq, Hash)]
 pub struct Id {
     value: u32,
 }
